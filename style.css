@@ -39,3 +39,8 @@ a:hover, a:focus {
         width: 280px;
     }
 }
+@media (max-width: 767px) {
+    .img-responsive {
+        width: 70vw;
+    }
+}
