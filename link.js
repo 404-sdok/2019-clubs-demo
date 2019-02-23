@@ -8,5 +8,5 @@ const linkDict = {
 }
 
 function linktem (link) {
-    window.location = linkDict[link];
+    window.open(linkDict[link], '_blank');
 }
